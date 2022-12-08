@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG-fale conosco.</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html" rel="prev">Pagina inicial</a></li>
+          <li><a href="faleconosco.html">Conta tudo</a></li>
+          <li><a href="selena.html" rel="next">Selena e Faustão</a>
+          <ul>
+              <li><a href="quemsao.html">Quem são?</a></li>
+              <li><a href="galeria.html">Galeria</a></li>
+          </ul>
+          </li>
+          
+              <li><a href="traicao.html">Mayra e Arthur</a>
+                  <ul>
+                  <li><a href="quememayraarthur.html">Quem são?</a></li>
+                  <li><a href="historico.html">Historico de traição</a></li>
+              </ul>
+              </li>
+        </ul>
+      </nav>
+    <main>
+        <h1>Conta tudoo!</h1>
+        <br>
+       <p> Quer entrar em contato com conosco, e compartilhar a sua fofoca?? ou até mesmo a sua reclamação ou opinião?? Temos a equipe perfeita para te atender, um mais fofoqueiro que o outro te garanto que vamos ouvir detalhe por detalhe. Escolha um e entre em contato. </p>
+       <br>
+       <picture>
+        <source media="(max-width:750 )" srcset="imagens/pequena/equipegg.jpg">
+        <source media="(max-width:1050 )" srcset="imagens/media/equipegg.jpg">
+        <img src="imagens/grande/equipegg.jpg" alt="Equipe do Gossip Girl">
+    </picture>
+        <br>
+       <p> Maria Eduardo: (35) 9 7070-7070</p>
+       <p>Igor Calvo: (35) 4002-8922</p>
+       <p>Helo: (35) 9 7777-7777</p>
+       <strong><p>Vai ser um prazer fofocar com você!</p></strong>
+       <br>
+       <h2>Se torne uma maria fifi:</h2>
+       <form>
+        <fieldset>
+            <legend>Assine e seja VIP em nosso site: </legend>
+            <p><label for="idnome">Seu nome:</label> <input type="text" name="nfofoqueiro" id="idnome" size="60" placeholder="Nome completo ou codinome de fofoca"></p>
+            <p><label for="idSenha">Senha:</label> <input type="password" name="nSenha" id="idSenha"></p>
+            <p><label for="idemail">E-mail:</label> <input type="email" name="oemail" id="idemail"></p>
+            <p><label for="idnsc">Data de nascimento:</label> <input type="date" name="nNascimento" id="idnsc"></p>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Nos ajude a conhecer você melhor!</legend>
+            <p><label for="idGosto">Quanto você gosta de fofocar?:</label> <input type="range"min= "0" max="10" name="nGosto" id="idGosto"></p>
+            <p><label for="idfofoca">Das fofocas faladas em nosso site quantas você ja conhecia??:</label><input type="number" min= "0"  name="nfofoca" id="idfofoca"></p>
+            <p><label for="idnivel">Selecione o seu nivel de fofoqueiro:</label></p>
+            <select name="nnivel" id="idnivel">
+                <option value="baixo">Baixo</option>
+                <option value="medio">Medio</option>
+                <option value="alto">Alto</option>
+                <option value="nnfofoca">Não sou fofoqueiro</option>
+                <option value="mtfofoca">Extremamente fofoqueiro</option>
+             </select>
+             <p><label for="tipo">Qual seu tipo de fofoqueiro?:</label></p>
+                <input type="radio" name="tipo" id="idCurioso"><label for="idCurioso">Curioso</label>
+                <input type="radio" name="tipo" id="idinventor"><label for="idinventor">Inventor</label>
+                <input type="radio" name="tipo" id="idintrometido"><label for="idintrometido">Intrometido</label>
+                <input type="radio" name="tipo" id="idmal"><label for="idmal">Maldoso</label>
+                <input type="radio" name="tipo" id="idbom"><label for="idbom">Bondoso</label>
+             
+        </fieldset>
+    </form>
+
+    </main>
+</body>
+</html>
